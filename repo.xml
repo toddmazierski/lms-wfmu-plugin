@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<extensions>
+  <details>
+    <title lang="EN">WFMU plugin repository</title>
+  </details>
+  <plugins>
+    <plugin name="WFMU" version="0.1" minTarget="7.9" maxTarget="*">
+      <title lang="EN">WFMU</title>
+      <desc lang="EN">Play radio streams and archived programs from WFMU</desc>
+      <category>radio</category>
+      <icon>https://raw.githubusercontent.com/toddmazierski/lms-wfmu-plugin/main/plugin/HTML/EN/plugins/WFMU/html/images/icon_svg.png</icon>
+      <url>https://github.com/toddmazierski/lms-wfmu-plugin/releases/download/v0.1/lms-wfmu-plugin-0.1.zip</url>
+      <link>https://github.com/toddmazierski/lms-wfmu-plugin</link>
+      <sha>c28ee7830765550866fe342ded18ba2fd129b3f1</sha>
+      <creator>Todd Mazierski</creator>
+    </plugin>
+  </plugins>
+</extensions>

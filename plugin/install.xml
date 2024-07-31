@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<extension>
+    <name>PLUGIN_WFMU</name>
+    <module>Plugins::WFMU::Plugin</module>
+    <version>0.1</version>
+    <description>PLUGIN_WFMU_DESC</description>
+    <icon>plugins/WFMU/html/images/icon_svg.png</icon>
+    <defaultState>enabled</defaultState>
+    <targetApplication>
+        <id>SlimServer</id>
+        <minVersion>7.9</minVersion>
+        <maxVersion>*</maxVersion>
+    </targetApplication>
+    <optionsURL>plugins/WFMU/settings.html</optionsURL>
+    <creator>Todd Mazierski</creator>
+    <email>todd_lyrion@internet-e-mail.com</email>
+</extension>

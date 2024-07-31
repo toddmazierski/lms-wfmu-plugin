@@ -1,0 +1,41 @@
+PLUGIN_WFMU
+	EN	WFMU
+
+PLUGIN_WFMU_DESC
+	EN	Play radio streams and archived programs from WFMU
+
+PLUGIN_WFMU_STREAMS_WFMU
+	EN	WFMU Live Stream
+
+PLUGIN_WFMU_STREAMS_ROCK_N_SOUL
+	EN	Rock 'n' Soul Radio
+
+PLUGIN_WFMU_STREAMS_DRUMMER
+	EN	Give the Drummer Radio
+
+PLUGIN_WFMU_STREAMS_SHEENA
+	EN	Sheena's Jungle Room
+
+PLUGIN_WFMU_SETTINGS_MY_PROGRAMS_TITLE
+	EN	My Programs
+
+PLUGIN_WFMU_SETTINGS_MY_PROGRAMS_DESC
+	EN	Follow the archives of your favorite programs on WFMU
+
+PLUGIN_WFMU_SETTINGS_MY_PROGRAMS_ID_DESC
+	EN	The <strong>ID</strong> is a 2-letter code found in WFMU playlist URLs. For example, the code for <a href="https://www.wfmu.org/playlists/WA" target="_blank">Wake with Clay Pigeon</a> is <code>WA</code>. Please visit the schedule pages <a href="https://www.wfmu.org/table" target="_blank">here</a>, <a href="https://wfmu.org/rocknsoulradio" target="_blank">here</a>, <a href="https://wfmu.org/drummer" target="_blank">here</a>, and <a href="https://wfmu.org/sheena" target="_blank">here</a> to find programs!
+
+PLUGIN_WFMU_SETTINGS_PROGRAM_ID_HEADING
+	EN	ID
+
+PLUGIN_WFMU_SETTINGS_PROGRAM_NAME_HEADING
+	EN	Name
+
+PLUGIN_WFMU_SETTINGS_PROGRAM_ID_INPUT_NEW
+	EN	Add new…
+
+PLUGIN_WFMU_SUPPORT_TITLE
+	EN	Donate
+
+PLUGIN_WFMU_SUPPORT_DESC
+	EN	WFMU is entirely listener-supported and independent radio. Consider making a <a href="https://pledge.wfmu.org/" target="_blank">donation</a> if you enjoy WFMU.
