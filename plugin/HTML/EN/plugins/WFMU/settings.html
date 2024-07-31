@@ -1,0 +1,45 @@
+[% PROCESS settings/header.html %]
+
+    [% WRAPPER setting title="PLUGIN_WFMU_SETTINGS_MY_PROGRAMS_TITLE" desc="PLUGIN_WFMU_SETTINGS_MY_PROGRAMS_DESC" %]
+
+    <div class="prefDesc">
+        [% "PLUGIN_WFMU_SETTINGS_MY_PROGRAMS_ID_DESC" | string %]
+    </div>
+
+    <table>
+        <tr>
+            <th>[% "PLUGIN_WFMU_SETTINGS_PROGRAM_ID_HEADING" | string %]</th>
+            <th>[% "PLUGIN_WFMU_SETTINGS_PROGRAM_NAME_HEADING" | string %]</th>
+        </tr>
+        <!-- to preserve the order, add leading zeroes so the input names can be sorted alphanumerically -->
+        [% USE leadingZeroes = format("%03d") %]
+        [% FOREACH program = programs %]
+        <tr>
+            <td>
+                <input type="text" name="program_[% leadingZeroes(loop.index) %]_id" value="[% program.id | html %]" class="stdedit"
+                    style="width: 80px;" />
+            </td>
+            <td>
+                <input type="text" name="program_[% leadingZeroes(loop.index) %]_name" value="[% program.name | html %]" class="stdedit"
+                    style="width: 200px;" />
+            </td>
+        </tr>
+        [% END %]
+        <tr>
+            <td>
+                <input type="text" name="program_new_id" value="" class="stdedit"
+                    placeholder='[% "PLUGIN_WFMU_SETTINGS_PROGRAM_ID_INPUT_NEW" | string %]'' style="width: 80px;" />
+            </td>
+            <td>
+                <input type="text" name="program_new_name" value="" class="stdedit"
+                    style="width: 200px;" />
+            </td>
+        </tr>
+    </table>
+    [% END %]
+
+    [% WRAPPER setting title="PLUGIN_WFMU_SUPPORT_TITLE" %]
+        [% 'PLUGIN_WFMU_SUPPORT_DESC' | getstring %]
+    [% END %]
+
+[% PROCESS settings/footer.html %]
